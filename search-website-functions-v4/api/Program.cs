@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Hosting;
 
 var host = new HostBuilder()
-    .ConfigureFunctionsDefaults()
+    .ConfigureFunctionsWorkerDefaults()
     .Build();
 
 host.Run();
